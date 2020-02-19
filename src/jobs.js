@@ -9,7 +9,7 @@ export const jobData = [
 },
 {
   "companyName": "Line Corp",
-  "jobTitle": "Development Engineer (iOS/Android) - Working in Japan",
+  "jobTitle": "Development Engineer (iOS/Android)",
   "jobLink": "https://linefukuoka.co.jp/en/career/list/engineer/development_engineer_client-side",
   "jobLocation": "Fukuoka",
   "jobCountry": "Japan",
@@ -17,7 +17,7 @@ export const jobData = [
 },
 {
   "companyName": "Line Corp",
-  "jobTitle": "Front-end Engineer - Working in Japan",
+  "jobTitle": "Front-end Engineer",
   "jobLink": "https://linefukuoka.co.jp/en/career/list/engineer/frontend_engineer",
   "jobLocation": "Fukuoka",
   "jobCountry": "Japan",
