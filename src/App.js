@@ -94,12 +94,13 @@ const ListItem = ({item, i, expandedJob, expandJob}) => {
                 <div style={{color: "#000000",fontSize: 22, fontWeight: "600"}}>
                     {item.jobTitle}
                 </div>
-                <b style={{color: "#000000", fontWeight: "500"}}>
-                  {item.jobLocation}
-                </b>
-                <div>
-                  <Tag color="magenta">{item.jobCountry}</Tag>
-                </div>
+                
+                <TagContainer style={{paddingTop: 3}}>
+                  <b style={{color: "#000000", fontWeight: "500"}}>
+                    {item.jobLocation}
+                  </b>
+                  &nbsp;<Tag color="magenta">{item.jobCountry}</Tag>
+                </TagContainer>
                 
               </div>
             }
