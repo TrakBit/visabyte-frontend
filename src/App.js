@@ -4,6 +4,12 @@ import './App.css';
 import 'antd/dist/antd.css';
 import { Layout, List, Avatar, Button, Tag, Typography} from 'antd';
 import {jobData} from './jobs'
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('UA-31455093-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
+
 const {Header} = Layout;
 const { Title } = Typography;
 
