@@ -72,6 +72,14 @@ export const jobData = [
   "tags": ["TypeScript", "React", "NodeJS", "PostgreSQL"]
 },
 {
+  "companyName": "Synthace",
+  "jobTitle": "Senior Software Engineer",
+  "jobLink": "https://jobs.lever.co/synthace/b0acf9f6-ebe5-4d16-807c-8abe67f01a2a",
+  "jobLocation": "West London",
+  "jobCountry": "United Kingdom",
+  "tags": ["Go", "GCP", "Kubernetes", "GraphQL"]
+},
+{
   "companyName": "CheMondis",
   "jobTitle": "Backend Developer",
   "jobLink": "https://chemondis.jacando.com//de/en/job/BbxCfoPQ",
@@ -86,6 +94,14 @@ export const jobData = [
   "jobLocation": "London",
   "jobCountry": "United Kingdom",
   "tags": ["Python", "Docker", "AWS", "PostgreSQL"]
+},
+{
+  "companyName": "Tessian",
+  "jobTitle": "Site Reliability Lead (DevOps)",
+  "jobLink": "https://jobs.lever.co/tessian/ab892f45-8037-4daf-981f-59bb6d51d7ce",
+  "jobLocation": "London",
+  "jobCountry": "United Kingdom",
+  "tags": ["Docker", "Kubernetes", "AWS", "Python"]
 },
 {
   "companyName": "Delivery Hero",
@@ -126,4 +142,12 @@ export const jobData = [
   "jobLocation": "Munich",
   "jobCountry": "Germany",
   "tags": ["Python", "NodeJS", "Docker"]
+},
+{
+  "companyName": "Freight Hub",
+  "jobTitle": "Senior Software Engineer",
+  "jobLink": "https://jobs.lever.co/freighthub/48c61e75-35cd-4698-80ca-abd06752b5b4",
+  "jobLocation": "Berlin",
+  "jobCountry": "Germany",
+  "tags": ["React", "NodeJS", "TypeScript"]
 }]
