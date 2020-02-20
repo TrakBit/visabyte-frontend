@@ -150,4 +150,20 @@ export const jobData = [
   "jobLocation": "Berlin",
   "jobCountry": "Germany",
   "tags": ["React", "NodeJS", "TypeScript"]
+},
+{
+  "companyName": "Otravo",
+  "jobTitle": "Front End developer",
+  "jobLink": "https://www.otravo.com/vacancies/front-end-developer-focus-react-vilnius/",
+  "jobLocation": "Vilnius",
+  "jobCountry": "Lithuania",
+  "tags": ["React", "REST", "CSS"]
+},
+{
+  "companyName": "Canva",
+  "jobTitle": "Software Engineer",
+  "jobLink": "https://jobs.lever.co/canva/82736406-04f0-4375-aa69-1c02b39d4138/",
+  "jobLocation": "Sydney",
+  "jobCountry": "Australia",
+  "tags": ["Java", "Linus", "AWS"]
 }]
