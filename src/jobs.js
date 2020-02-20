@@ -38,4 +38,92 @@ export const jobData = [
   "jobLocation": "New York City",
   "jobCountry": "United States",
   "tags": ["NodeJs", "Git", "Firebase"]
+},
+{
+  "companyName": "Odoo",
+  "jobTitle": "Python & JavaScript Developer",
+  "jobLink": "https://www.odoo.com/jobs/detail/software-developer-1",
+  "jobLocation": "Ramillies",
+  "jobCountry": "Belgium",
+  "tags": ["Python", "JavaScript", "Github", "PostgreSQL"]
+},
+{
+  "companyName": "Revolut",
+  "jobTitle": "Python Software Engineer",
+  "jobLink": "https://jobs.lever.co/revolut/4c4f4fce-0599-4afa-a0b4-5f4a4a9e053e",
+  "jobLocation": "London",
+  "jobCountry": "United Kingdom",
+  "tags": ["Java", "JavaScript", "Docker", "GCP"]
+},
+{
+  "companyName": "CeADAR",
+  "jobTitle": "Data Scientist",
+  "jobLink": "https://stackoverflow.com/jobs/298036/data-scientist-x-5-roles-software-engineer-x-1-ceadar",
+  "jobLocation": "Dublin",
+  "jobCountry": "Ireland",
+  "tags": ["Python", "text-classification", "nlp"]
+},
+{
+  "companyName": "Synthace",
+  "jobTitle": "Product Engineer (Full Stack)",
+  "jobLink": "https://jobs.lever.co/synthace/080ba73f-8fee-4b6e-8d1e-820d35b521ee",
+  "jobLocation": "West London",
+  "jobCountry": "United Kingdom",
+  "tags": ["TypeScript", "React", "NodeJS", "PostgreSQL"]
+},
+{
+  "companyName": "CheMondis",
+  "jobTitle": "Backend Developer",
+  "jobLink": "https://chemondis.jacando.com//de/en/job/BbxCfoPQ",
+  "jobLocation": "Köln",
+  "jobCountry": "Germany",
+  "tags": ["Python", "PostgreSQL", "Kubernetes"]
+},
+{
+  "companyName": "Tessian",
+  "jobTitle": "Python Backend Engineer",
+  "jobLink": "https://jobs.lever.co/tessian/9046cd4f-1148-450c-baf8-0567dfea4cfe",
+  "jobLocation": "London",
+  "jobCountry": "United Kingdom",
+  "tags": ["Python", "Docker", "AWS", "PostgreSQL"]
+},
+{
+  "companyName": "Delivery Hero",
+  "jobTitle": "Lead NodeJS Engineer",
+  "jobLink": "https://www.deliveryhero.com/careers/jobs/#/JR0000904",
+  "jobLocation": "Berlin",
+  "jobCountry": "Germany",
+  "tags": ["NodeJS", "TypeScript", "REST"]
+},
+{
+  "companyName": "Delivery Hero",
+  "jobTitle": "Embedded Software Engineer",
+  "jobLink": "https://vicentra.bamboohr.com/jobs/view.php?id=2",
+  "jobLocation": "Utrecht",
+  "jobCountry": "Netherlands",
+  "tags": ["C", "C++", "Embedded"]
+},
+{
+  "companyName": "Message Bird",
+  "jobTitle": "Machine Learning Engineer",
+  "jobLink": "https://www.messagebird.com/en/careers-job/?gh_jid=4584943002&gh_src=3109e4f52",
+  "jobLocation": "Amsterdam",
+  "jobCountry": "Netherlands",
+  "tags": ["Python", "TensorFlow", "Pytorch"]
+},
+{
+  "companyName": "Social Sweethearts",
+  "jobTitle": "Senior Python Fullstack Developer",
+  "jobLink": "https://apply.workable.com/socialsweethearts/j/01965B2300/",
+  "jobLocation": "Munich",
+  "jobCountry": "Germany",
+  "tags": ["Python", "Django", "PostgreSQL"]
+},
+{
+  "companyName": "Finn.Auto",
+  "jobTitle": "Senior Backend Engineer",
+  "jobLink": "https://finn.breezy.hr/p/302dcc046ea601-backend-engineer",
+  "jobLocation": "Munich",
+  "jobCountry": "Germany",
+  "tags": ["Python", "NodeJS", "Docker"]
 }]
