@@ -1,193 +1,331 @@
 export const jobData = [
-{
-  "companyName": "Hopper",
-  "jobTitle": "Software Engineering Team Lead",
-  "jobLink": "https://www.hopper.com/careers/software-engineering-team-lead---air-35fa87ec-dc9c-450a-9f24-9744bd0f48f7/",
-  "jobLocation": "Boston",
-  "jobCountry": "United States",
-  "tags": ["Swift", "Kotlin", "Scala", "Spark"]
+  {
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png",
+    "companyName": "Razer Inc.",
+    "jobTitle": "Software Development Engineer In Test (SDET)",
+    "jobLink": "https://stackoverflow.com/jobs/320529/software-development-engineer-in-test-sdet-razer-inc",
+    "jobLocation": "Singapore",
+    "tags": [
+        "c#",
+        "c",
+        "jenkins",
+        "xcode"
+    ]
 },
 {
-  "companyName": "3D HUBS",
-  "jobTitle": "Senior Software Engineer - BackEnd ",
-  "jobLink": "https://jobs.lever.co/3dhubs/c39349fc-8b82-4416-bb25-2d6f7bca3355",
-  "jobLocation": "Amsterdam",
-  "jobCountry": "Netherlands",
-  "tags": ["Python", "Flask", "PostrgeSQL", "Docker"]
+    "companyImage": "https://i.stack.imgur.com/OIO5x.png",
+    "companyName": "Wellcome Sanger Institute",
+    "jobTitle": "Senior Software Developer - Cancer Research",
+    "jobLink": "https://stackoverflow.com/jobs/368050/senior-software-developer-cancer-research-wellcome-sanger-institute",
+    "jobLocation": "Hinxton, UK",
+    "tags": [
+        "python",
+        "django"
+    ]
 },
 {
-  "companyName": "3D HUBS",
-  "jobTitle": "Software Engineer - R&D",
-  "jobLink": "https://jobs.lever.co/3dhubs/468676b3-b27b-4613-a8ea-ed0a3a527659",
-  "jobLocation": "Amsterdam",
-  "jobCountry": "Netherlands",
-  "tags": ["Python", "AWS", "Kubernetes", "ML"]
+    "companyImage": "https://i.stack.imgur.com/ERANA.png",
+    "companyName": "RTL Nederland",
+    "jobTitle": "DevOps Cloud Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/168441/devops-cloud-engineer-rtl-nederland",
+    "jobLocation": "Hilversum, Netherlands",
+    "tags": [
+        "docker",
+        "cloud",
+        "jenkins",
+        "azure",
+        "kubernetes",
+        "sysadmin"
+    ]
 },
 {
-  "companyName": "Message Bird",
-  "jobTitle": "Machine Learning Engineer",
-  "jobLink": "https://www.messagebird.com/en/careers-job/?gh_jid=4584943002&gh_src=3109e4f52",
-  "jobLocation": "Amsterdam",
-  "jobCountry": "Netherlands",
-  "tags": ["Python", "TensorFlow", "Pytorch"]
+    "companyImage": "https://i.stack.imgur.com/ERANA.png",
+    "companyName": "RTL Nederland",
+    "jobTitle": "Data Infrastructure Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/353118/data-infrastructure-engineer-rtl-nederland",
+    "jobLocation": "Hilversum, Netherlands",
+    "tags": [
+        "python",
+        "java",
+        "docker"
+    ]
 },
 {
-  "companyName": "Social Sweethearts",
-  "jobTitle": "Senior Python Fullstack Developer",
-  "jobLink": "https://apply.workable.com/socialsweethearts/j/01965B2300/",
-  "jobLocation": "Munich",
-  "jobCountry": "Germany",
-  "tags": ["Python", "Django", "PostgreSQL"]
+    "companyImage": "https://i.stack.imgur.com/pG1OB.jpg",
+    "companyName": "Grand Parade",
+    "jobTitle": "Senior iOS Developer",
+    "jobLink": "https://stackoverflow.com/jobs/351643/senior-ios-developer-grand-parade",
+    "jobLocation": "Kraków, Poland",
+    "tags": [
+        "swift",
+        "git",
+        "core",
+        "data",
+        "ios"
+    ]
 },
 {
-  "companyName": "Finn.Auto",
-  "jobTitle": "Senior Backend Engineer",
-  "jobLink": "https://finn.breezy.hr/p/302dcc046ea601-backend-engineer",
-  "jobLocation": "Munich",
-  "jobCountry": "Germany",
-  "tags": ["Python", "NodeJS", "Docker"]
+    "companyImage": "https://i.stack.imgur.com/tfHIi.png",
+    "companyName": "Volkswagen Digital Solutions",
+    "jobTitle": "Backend Developer @ MAN Digital Hub",
+    "jobLink": "https://stackoverflow.com/jobs/341027/backend-developer-man-digital-hub-volkswagen-digital-solutions",
+    "jobLocation": "Lisboa, Portugal",
+    "tags": [
+        "c++",
+        "embedded",
+        "c"
+    ]
 },
 {
-  "companyName": "Freight Hub",
-  "jobTitle": "Senior Software Engineer",
-  "jobLink": "https://jobs.lever.co/freighthub/48c61e75-35cd-4698-80ca-abd06752b5b4",
-  "jobLocation": "Berlin",
-  "jobCountry": "Germany",
-  "tags": ["React", "NodeJS", "TypeScript"]
+    "companyImage": "https://i.stack.imgur.com/RHe2g.png",
+    "companyName": "Massive Entertainment - A Ubisoft Studio",
+    "jobTitle": "Full stack developer",
+    "jobLink": "https://stackoverflow.com/jobs/351634/full-stack-developer-massive-entertainment-a",
+    "jobLocation": "Malmö, Sweden",
+    "tags": [
+        "javascript",
+        "c#",
+        "html",
+        "css"
+    ]
 },
 {
-  "companyName": "Otravo",
-  "jobTitle": "Front End developer",
-  "jobLink": "https://www.otravo.com/vacancies/front-end-developer-focus-react-vilnius/",
-  "jobLocation": "Vilnius",
-  "jobCountry": "Lithuania",
-  "tags": ["React", "REST", "CSS"]
+    "companyImage": "https://i.stack.imgur.com/g3ejp.jpg",
+    "companyName": "BookDoc",
+    "jobTitle": "iOS Developer",
+    "jobLink": "https://stackoverflow.com/jobs/340988/ios-developer-bookdoc",
+    "jobLocation": "Petaling Jaya, Malaysia",
+    "tags": [
+        "ios",
+        "swift"
+    ]
 },
 {
-  "companyName": "Canva",
-  "jobTitle": "Software Engineer",
-  "jobLink": "https://jobs.lever.co/canva/82736406-04f0-4375-aa69-1c02b39d4138/",
-  "jobLocation": "Sydney",
-  "jobCountry": "Australia",
-  "tags": ["Java", "Linus", "AWS"]
+    "companyImage": "https://i.stack.imgur.com/tfHIi.png",
+    "companyName": "Volkswagen Digital Solutions",
+    "jobTitle": "Software Developer @ SDC:LX",
+    "jobLink": "https://stackoverflow.com/jobs/340983/software-developer-sdc-lx-volkswagen-digital-solutions",
+    "jobLocation": "Lisboa, Portugal",
+    "tags": [
+        "tdd",
+        "agile",
+        "kotlin",
+        "go",
+        "scala"
+    ]
 },
 {
-  "companyName": "Line Corp",
-  "jobTitle": "Software Engineer (Monitoring System)",
-  "jobLink": "https://linefukuoka.co.jp/en/career/list/engineer/Monitoring_System",
-  "jobLocation": "Fukuoka",
-  "jobCountry": "Japan",
-  "tags": ["Prometheus", "Saltstack", "Python", "Django"]
+    "companyImage": "https://i.stack.imgur.com/CVdmi.jpg",
+    "companyName": "Topic Embedded Systems B.V.",
+    "jobTitle": "Senior C++ Engineer who helps to make the world better, healthier and smarter!",
+    "jobLink": "https://stackoverflow.com/jobs/163352/senior-c-plus-plus-engineer-who-helps-to-make-the-world-topic-embedded-systems-bv",
+    "jobLocation": "Best, Netherlands",
+    "tags": [
+        "c++",
+        "linux",
+        "agile",
+        "embedded"
+    ]
 },
 {
-  "companyName": "Line Corp",
-  "jobTitle": "Development Engineer (iOS/Android)",
-  "jobLink": "https://linefukuoka.co.jp/en/career/list/engineer/development_engineer_client-side",
-  "jobLocation": "Fukuoka",
-  "jobCountry": "Japan",
-  "tags": ["Ojective-C", "Kotlin", "swift"]
+    "companyImage": "https://i.stack.imgur.com/gyqAr.png",
+    "companyName": "ToolTime GmbH",
+    "jobTitle": "Full Stack Engineer (m/f/d)",
+    "jobLink": "https://stackoverflow.com/jobs/340981/full-stack-engineer-m-f-d-tooltime-gmbh",
+    "jobLocation": "Berlin, Germany",
+    "tags": [
+        "reactjs",
+        "java",
+        "amazon-web-services",
+        "graphql",
+        "typescript"
+    ]
 },
 {
-  "companyName": "Line Corp",
-  "jobTitle": "Front-end Engineer",
-  "jobLink": "https://linefukuoka.co.jp/en/career/list/engineer/frontend_engineer",
-  "jobLocation": "Fukuoka",
-  "jobCountry": "Japan",
-  "tags": ["HTML", "CSS", "JavaScript"]
+    "companyImage": "https://i.stack.imgur.com/tfHIi.png",
+    "companyName": "Volkswagen Digital Solutions",
+    "jobTitle": "Software Developer @ MAN Digital Hub",
+    "jobLink": "https://stackoverflow.com/jobs/340980/software-developer-man-digital-hub-volkswagen-digital-solutions",
+    "jobLocation": "Lisboa, Portugal",
+    "tags": [
+        "java",
+        "spring-boot",
+        "hibernate",
+        "angular",
+        "json"
+    ]
 },
 {
-  "companyName": "Bulb Energy",
-  "jobTitle": "Senior Software Engineer",
-  "jobLink": "https://apply.workable.com/bulb/j/9CD05A7249/",
-  "jobLocation": "London",
-  "jobCountry": "United Kingdom",
-  "tags": ["Javascript", "React", "Babel"]
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png",
+    "companyName": "Razer Inc.",
+    "jobTitle": "Data Scientist",
+    "jobLink": "https://stackoverflow.com/jobs/320522/data-scientist-razer-inc",
+    "jobLocation": "Singapore",
+    "tags": [
+        "machine-learning",
+        "algorithm",
+        "bayesian",
+        "nlp"
+    ]
 },
 {
-  "companyName": "Fluz",
-  "jobTitle": "React Native Engineer",
-  "jobLink": "https://angel.co/company/fluz/jobs/498751-disruptive-fintech-start-up-looking-for-react-native-engineer-visa-sponsorship",
-  "jobLocation": "New York City",
-  "jobCountry": "United States",
-  "tags": ["NodeJs", "Git", "Firebase"]
+    "companyImage": "https://i.stack.imgur.com/BfFri.png",
+    "companyName": "Sinch",
+    "jobTitle": "Mobile Developer - Create world class SDK's with us!",
+    "jobLink": "https://stackoverflow.com/jobs/328973/mobile-developer-create-world-class-sdks-with-sinch",
+    "jobLocation": "Stockholm, Sweden",
+    "tags": [
+        "c++",
+        "objective-c",
+        "swift",
+        "ios",
+        "android"
+    ]
 },
 {
-  "companyName": "Odoo",
-  "jobTitle": "Python & JavaScript Developer",
-  "jobLink": "https://www.odoo.com/jobs/detail/software-developer-1",
-  "jobLocation": "Ramillies",
-  "jobCountry": "Belgium",
-  "tags": ["Python", "JavaScript", "Github", "PostgreSQL"]
+    "companyImage": "https://i.stack.imgur.com/g3ejp.jpg",
+    "companyName": "BookDoc",
+    "jobTitle": "Android Developer",
+    "jobLink": "https://stackoverflow.com/jobs/338992/android-developer-bookdoc",
+    "jobLocation": "Petaling Jaya, Malaysia",
+    "tags": [
+        "android",
+        "kotlin",
+        "mvvm",
+        "rx-java",
+        "circleci"
+    ]
 },
 {
-  "companyName": "Revolut",
-  "jobTitle": "Python Software Engineer",
-  "jobLink": "https://jobs.lever.co/revolut/4c4f4fce-0599-4afa-a0b4-5f4a4a9e053e",
-  "jobLocation": "London",
-  "jobCountry": "United Kingdom",
-  "tags": ["Java", "JavaScript", "Docker", "GCP"]
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png",
+    "companyName": "Razer Inc.",
+    "jobTitle": "DevOps Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/320518/devops-engineer-razer-inc",
+    "jobLocation": "Singapore",
+    "tags": [
+        "amazon-web-services",
+        "rest",
+        "oauth-2.0",
+        "linux"
+    ]
 },
 {
-  "companyName": "CeADAR",
-  "jobTitle": "Data Scientist",
-  "jobLink": "https://stackoverflow.com/jobs/298036/data-scientist-x-5-roles-software-engineer-x-1-ceadar",
-  "jobLocation": "Dublin",
-  "jobCountry": "Ireland",
-  "tags": ["Python", "text-classification", "nlp"]
+    "companyImage": "https://i.stack.imgur.com/pkv0T.png",
+    "companyName": "Wizeline",
+    "jobTitle": "Tech Lead (Front-end)",
+    "jobLink": "https://stackoverflow.com/jobs/374028/tech-lead-front-end-wizeline",
+    "jobLocation": "Ho Chi Minh City, Vietnam",
+    "tags": [
+        "reactjs",
+        "agile",
+        "javascript",
+        "web"
+    ]
 },
 {
-  "companyName": "Synthace",
-  "jobTitle": "Product Engineer (Full Stack)",
-  "jobLink": "https://jobs.lever.co/synthace/080ba73f-8fee-4b6e-8d1e-820d35b521ee",
-  "jobLocation": "West London",
-  "jobCountry": "United Kingdom",
-  "tags": ["TypeScript", "React", "NodeJS", "PostgreSQL"]
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png",
+    "companyName": "Razer Inc.",
+    "jobTitle": "Information Security Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/320515/information-security-engineer-razer-inc",
+    "jobLocation": "Singapore",
+    "tags": [
+        "windows",
+        "linux",
+        "amazon-ec2"
+    ]
 },
 {
-  "companyName": "Synthace",
-  "jobTitle": "Senior Software Engineer",
-  "jobLink": "https://jobs.lever.co/synthace/b0acf9f6-ebe5-4d16-807c-8abe67f01a2a",
-  "jobLocation": "West London",
-  "jobCountry": "United Kingdom",
-  "tags": ["Go", "GCP", "Kubernetes", "GraphQL"]
+    "companyImage": "https://i.stack.imgur.com/aUg7G.png",
+    "companyName": "Scoville",
+    "jobTitle": "Server side web developer",
+    "jobLink": "https://stackoverflow.com/jobs/372248/server-side-web-developer-scoville",
+    "jobLocation": "Tokyo, Japan",
+    "tags": [
+        "elixir",
+        "phoenix-framework",
+        "go",
+        "graphql",
+        "postgresql"
+    ]
 },
 {
-  "companyName": "CheMondis",
-  "jobTitle": "Backend Developer",
-  "jobLink": "https://chemondis.jacando.com//de/en/job/BbxCfoPQ",
-  "jobLocation": "Köln",
-  "jobCountry": "Germany",
-  "tags": ["Python", "PostgreSQL", "Kubernetes"]
+    "companyImage": "https://i.stack.imgur.com/dZUfZ.png",
+    "companyName": "Ascend Group",
+    "jobTitle": "Software Architect",
+    "jobLink": "https://stackoverflow.com/jobs/340132/software-architect-ascend-group",
+    "jobLocation": "Khwaeng Bang Chak, Thailand",
+    "tags": [
+        "spring",
+        "java",
+        "spring-mvc",
+        "postgresql",
+        "amazon-web-services"
+    ]
 },
 {
-  "companyName": "Tessian",
-  "jobTitle": "Python Backend Engineer",
-  "jobLink": "https://jobs.lever.co/tessian/9046cd4f-1148-450c-baf8-0567dfea4cfe",
-  "jobLocation": "London",
-  "jobCountry": "United Kingdom",
-  "tags": ["Python", "Docker", "AWS", "PostgreSQL"]
+    "companyImage": "https://i.stack.imgur.com/dZUfZ.png",
+    "companyName": "Ascend Group",
+    "jobTitle": "Solution Architect",
+    "jobLink": "https://stackoverflow.com/jobs/340130/solution-architect-ascend-group",
+    "jobLocation": "Khwaeng Bang Chak, Thailand",
+    "tags": [
+        "spring",
+        "java",
+        "postgresql",
+        "rabbitmq",
+        "spring-kafka"
+    ]
 },
 {
-  "companyName": "Tessian",
-  "jobTitle": "Site Reliability Lead (DevOps)",
-  "jobLink": "https://jobs.lever.co/tessian/ab892f45-8037-4daf-981f-59bb6d51d7ce",
-  "jobLocation": "London",
-  "jobCountry": "United Kingdom",
-  "tags": ["Docker", "Kubernetes", "AWS", "Python"]
+    "companyImage": "https://i.stack.imgur.com/b7Bla.png",
+    "companyName": "Earnin Inc.",
+    "jobTitle": "Senior Software Engineer, Full Stack",
+    "jobLink": "https://stackoverflow.com/jobs/373931/senior-software-engineer-full-stack-earnin-inc",
+    "jobLocation": "Palo Alto, CA",
+    "tags": [
+        "c#",
+        ".net",
+        "web",
+        "amazon-web-services",
+        "mobile"
+    ]
 },
 {
-  "companyName": "Delivery Hero",
-  "jobTitle": "Lead NodeJS Engineer",
-  "jobLink": "https://www.deliveryhero.com/careers/jobs/#/JR0000904",
-  "jobLocation": "Berlin",
-  "jobCountry": "Germany",
-  "tags": ["NodeJS", "TypeScript", "REST"]
+    "companyImage": "https://i.stack.imgur.com/8Isq1.png",
+    "companyName": "Personio",
+    "jobTitle": "Senior Backend Engineer (m/w/d)",
+    "jobLink": "https://stackoverflow.com/jobs/273941/senior-backend-engineer-m-w-d-personio",
+    "jobLocation": "München, Germany",
+    "tags": [
+        "docker",
+        "java",
+        "kotlin",
+        "golang",
+        "kubernetes"
+    ]
 },
 {
-  "companyName": "Delivery Hero",
-  "jobTitle": "Embedded Software Engineer",
-  "jobLink": "https://vicentra.bamboohr.com/jobs/view.php?id=2",
-  "jobLocation": "Utrecht",
-  "jobCountry": "Netherlands",
-  "tags": ["C", "C++", "Embedded"]
+    "companyImage": "https://i.stack.imgur.com/8Isq1.png",
+    "companyName": "Personio",
+    "jobTitle": "Senior Security Engineer (m/f/d)",
+    "jobLink": "https://stackoverflow.com/jobs/281130/senior-security-engineer-m-f-d-personio",
+    "jobLocation": "München, Germany",
+    "tags": [
+        "security",
+        "python",
+        "docker",
+        "amazon-web-services",
+        "cloud"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/tYuPG.png",
+    "companyName": "European Bioinformatics Institute (EMBL-EBI)",
+    "jobTitle": "Data Platform Coordinator",
+    "jobLink": "https://stackoverflow.com/jobs/373865/data-platform-coordinator-european-bioinformatics",
+    "jobLocation": "Hinxton, UK",
+    "tags": [
+        "web-services",
+        "project-management"
+    ]
 }]

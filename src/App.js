@@ -4,6 +4,7 @@ import './App.css';
 import 'antd/dist/antd.css';
 import { Layout, List, Avatar, Button, Tag, Typography} from 'antd';
 import {jobData} from './jobs'
+//import {getJob} from './Api'
 import ReactGA from 'react-ga';
 
 ReactGA.initialize('UA-31455093-1');
@@ -50,6 +51,7 @@ function App() {
   }, [])
   */
 
+
   const expandJob = (i) => {
     if (i === expandedJob) {
       setExpandedJob(-1)
@@ -61,7 +63,7 @@ function App() {
   return (
     <div className="App">
       <Container>
-        <Header style={{background: '#33334f'}}>
+        <Header style={{background: '#ffffff'}}>
           <LogoBody/>
         </Header>
         <BodyTitle/>
@@ -81,13 +83,12 @@ function App() {
 
 
 const ListItem = ({item, i, expandedJob, expandJob}) => {
-    const companyName = item.companyName
     return (
       <div>
         <List.Item style={{backgroundColor:"#FFFFFF"}} onClick={() => expandJob(i)}>
           <List.Item.Meta
             avatar={
-                <Avatar style={{backgroundColor: "#40A9FF"}}>{companyName.charAt(0)}</Avatar>}
+                <Avatar shape="square" size="large" src={item.companyImage}/>}
             title={
                 <TagContainer>
                   <div style={{color: "#000000",fontSize: 20, fontWeight: "400"}}>
@@ -102,10 +103,7 @@ const ListItem = ({item, i, expandedJob, expandJob}) => {
                 </div>
                 
                 <TagContainer style={{paddingTop: 3}}>
-                  <b style={{color: "#000000", fontWeight: "500"}}>
-                    {item.jobLocation}
-                  </b>
-                  &nbsp;<Tag color="magenta">{item.jobCountry}</Tag>
+                  <Tag color="magenta">{item.jobLocation}</Tag>
                 </TagContainer>
                 
               </div>
@@ -193,7 +191,7 @@ const LogoBody = () => {
 const Logo = (props) => {
   if (window.innerWidth > 415) {
     return (
-      <div style={{height: '10%', width: '15%'}}>
+      <div style={{height: '20%', width: '25%'}}>
         <LogoSvg/>
       </div>
     )
@@ -204,41 +202,30 @@ const Logo = (props) => {
       </div>
     )
   }
-
 }
 
 const LogoSvg = () => {
   return (
-    <svg
-      viewBox="0 0 1300 300"
-      fillRule="evenodd"
-      clipRule="evenodd"
-      strokeLinejoin="round"
-      strokeMiterlimit={1.414}
-    >
-      <ellipse
-        cx={214.551}
-        cy={198.285}
-        rx={176.242}
-        ry={178.261}
-        fill="#40a9ff"
-        transform="matrix(.62414 0 0 .61707 102.155 28.439)"
-      />
-      <text
-        x={300.208}
-        y={208.578}
-        fontFamily="'PalanquinDark-Regular','Palanquin Dark',sans-serif"
-        fontSize={208.254}
-        fill="#fff"
-        transform="translate(65.067 10.81)"
+    <div>
+      <svg
+        viewBox="0 0 900 300"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        strokeLinejoin="round"
+        strokeMiterlimit={1.414}
       >
-        {"VisaByte"}
-      </text>
-      <path
-        d="M198.856 148.898a12.715 12.715 0 00-12.716-12.716 11.557 11.557 0 00-11.558 11.558v40.339c0 6.89 5.585 12.478 12.477 12.478h.001c6.514 0 11.796-5.282 11.796-11.796v-39.863zM247.76 133.778c0-7.023-5.693-12.717-12.717-12.717a11.557 11.557 0 00-11.558 11.559v55.699c0 6.891 5.586 12.478 12.477 12.478h.002c6.514 0 11.796-5.282 11.796-11.797v-55.222zM296.425 116.892c0-7.022-5.693-12.716-12.717-12.716a11.559 11.559 0 00-11.558 11.559v72.954c0 6.891 5.586 12.478 12.477 12.478h.002c6.514 0 11.796-5.281 11.796-11.796v-72.479z"
-        fill="#fff"
-      />
-    </svg>
+        <text
+          x={300.208}
+          y={208.578}
+          fontFamily="'PalanquinDark-Regular','Palanquin Dark',sans-serif"
+          fontSize={104.167}
+          fill="#40a9ff"
+          transform="translate(-83.277 -33.69)"
+        >
+          {"Visa Byte"}
+        </text>
+      </svg>
+    </div>
   )
 }
 
