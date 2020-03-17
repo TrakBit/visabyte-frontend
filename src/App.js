@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React, {useState} from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
-import { Layout, List, Avatar, Button, Tag, Typography} from 'antd';
+import { Layout, List, Avatar, Button, Tag, Typography, Card} from 'antd';
 import {jobData} from './jobs'
 //import {getJob} from './Api'
 import ReactGA from 'react-ga';
@@ -85,6 +85,7 @@ function App() {
 const ListItem = ({item, i, expandedJob, expandJob}) => {
     return (
       <div>
+      <Card size="small" hoverable>
         <List.Item style={{backgroundColor:"#FFFFFF"}} onClick={() => expandJob(i)}>
           <List.Item.Meta
             avatar={
@@ -111,7 +112,8 @@ const ListItem = ({item, i, expandedJob, expandJob}) => {
           />
             <Tags item={item}/>
         </List.Item>
-        <hr/>
+      </Card>
+      <br/>
       </div>
     )
 }
