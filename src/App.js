@@ -102,10 +102,12 @@ const ListItem = ({item, i, expandedJob, expandJob}) => {
                 <div style={{color: "#000000",fontSize: 22, fontWeight: "600"}}>
                     {item.jobTitle}
                 </div>
-                
-                <TagContainer style={{paddingTop: 3}}>
-                  <Tag color="magenta">{item.jobLocation}</Tag>
-                </TagContainer>
+                <div  style={{paddingTop: 5}}>
+                  <Button style={{borderWidth: 2, borderColor: "#ff5151", }} size="small" ghost>
+                    <font color="#ff5151">{item.jobLocation}</font>
+                  </Button>
+                </div>
+
                 
               </div>
             }
@@ -145,7 +147,9 @@ const Tags = ({item}) => {
         <>
           <TagContainer style={{paddingRight: "20%"}}>
             {item.tags.map((subItem, i) =>
-              <Tag color="geekblue" key={i}>{subItem}</Tag>
+              <Button key={i} style={{marginLeft: 4,borderWidth: 2, borderColor: "#4a47a3", }} size="small" ghost>
+                  <font color="#4a47a3">{subItem}</font>
+              </Button>
             )}
           </TagContainer>
           <div style={{paddingRight: "2%"}}>
