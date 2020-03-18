@@ -18,6 +18,7 @@ const Container = styled.section`
   display: flex;
   margin: 0;
   flex-direction: column;
+  word-break: break-all;
 `;
 
 const HeaderContainer = styled.section`
@@ -130,7 +131,7 @@ const BodyTitle = () => {
     return (
       <HeaderContainer style={{paddingTop: '4%'}}>
           <TagContainer>
-            <Title level={3}>{'Tech Jobs With Visa Sponsorship'}</Title>
+            <Title level={4}>Tech Jobs With<br/> Visa Sponsorship</Title>
           </TagContainer>
       </HeaderContainer>
     )
