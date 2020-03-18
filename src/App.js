@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React, {useState} from 'react';
 import './App.css';
 import 'antd/dist/antd.css';
-import { Layout, List, Avatar, Button, Tag, Typography, Card} from 'antd';
+import { Layout, List, Avatar, Button, Typography} from 'antd';
 import {jobData} from './jobs'
 //import {getJob} from './Api'
 import ReactGA from 'react-ga';
