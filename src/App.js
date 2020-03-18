@@ -103,11 +103,9 @@ const ListItem = ({item, i, expandedJob, expandJob}) => {
                 </div>
                 <div  style={{paddingTop: 5}}>
                   <Button style={{borderWidth: 2, borderColor: "#ff5151", }} size="small" ghost>
-                    <font color="#ff5151">{item.jobLocation}</font>
+                    <font color="#ff5151"><strong>{item.jobLocation}</strong></font>
                   </Button>
-                </div>
-
-                
+                </div>         
               </div>
             }
           />
@@ -145,13 +143,15 @@ const Tags = ({item}) => {
         <>
           <TagContainer style={{paddingRight: "20%"}}>
             {item.tags.map((subItem, i) =>
-              <Button key={i} style={{marginLeft: 4,borderWidth: 2, borderColor: "#4a47a3", }} size="small" ghost>
-                  <font color="#4a47a3">{subItem}</font>
+              <Button key={i} style={{marginLeft: 4, marginTop: 4,borderWidth: 2, borderColor: "#4a47a3", }} size="small" ghost>
+                  <font color="#4a47a3"> <strong>{subItem}</strong></font>
               </Button>
             )}
           </TagContainer>
           <div style={{paddingRight: "2%"}}>
-            <Button type="primary" href={item.jobLink}>Apply</Button>
+            <Button type="primary" href={item.jobLink} style={{borderWidth: 2, borderColor: "#00b7c2"}} ghost>
+              <font color="#00b7c2"> <strong>{'Apply'}</strong></font>
+            </Button>
           </div>
         </>
     )
@@ -164,7 +164,11 @@ const Tags = ({item}) => {
                 <font color="#4a47a3">{subItem}</font>
               </Button>
             )}
-            <Button style={{marginTop: 4,marginLeft: 4}} type="primary" size="small" href={item.jobLink}>Apply</Button>
+            <div style={{paddingRight: "2%"}}>
+              <Button type="primary" href={item.jobLink} style={{marginTop: 4,marginLeft: 4,borderWidth: 2, borderColor: "#00b7c2"}} ghost>
+                <font color="#00b7c2"> <strong>{'Apply'}</strong></font>
+              </Button>
+            </div>
           </TagContainer>
           
       </>
