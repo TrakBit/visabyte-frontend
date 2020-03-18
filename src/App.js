@@ -85,11 +85,10 @@ function App() {
 const ListItem = ({item, i, expandedJob, expandJob}) => {
     return (
       <div>
-      <Card size="small" hoverable>
-        <List.Item style={{backgroundColor:"#FFFFFF"}} onClick={() => expandJob(i)}>
+        <List.Item style={{backgroundColor:"#f4f9f4"}} onClick={() => expandJob(i)}>
           <List.Item.Meta
             avatar={
-                <Avatar shape="square" size="large" src={item.companyImage}/>}
+                <Avatar style={{marginLeft: 7}} shape="square" size="large" src={item.companyImage}/>}
             title={
                 <TagContainer>
                   <div style={{color: "#000000",fontSize: 20, fontWeight: "400"}}>
@@ -114,8 +113,7 @@ const ListItem = ({item, i, expandedJob, expandJob}) => {
           />
             <Tags item={item}/>
         </List.Item>
-      </Card>
-      <br/>
+        <br/>
       </div>
     )
 }
