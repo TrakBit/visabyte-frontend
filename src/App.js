@@ -160,9 +160,11 @@ const Tags = ({item}) => {
       <>
           <TagContainer style={{paddingTop: "2%", widows: "70%"}}>
             {item.tags.map((subItem, i) =>
-              <Tag color="geekblue" key={i}>{subItem}</Tag>
+              <Button key={i} style={{marginTop: 4,marginLeft: 4,borderWidth: 2, borderColor: "#4a47a3", }} size="small" ghost>
+                <font color="#4a47a3">{subItem}</font>
+              </Button>
             )}
-            <Button type="primary" size="small" href={item.jobLink}>Apply</Button>
+            <Button style={{marginTop: 4,marginLeft: 4}} type="primary" size="small" href={item.jobLink}>Apply</Button>
           </TagContainer>
           
       </>
