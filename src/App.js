@@ -149,7 +149,7 @@ const Tags = ({item}) => {
             )}
           </TagContainer>
           <div style={{paddingRight: "2%"}}>
-            <Button type="primary" href={item.jobLink} style={{borderWidth: 2, borderColor: "#00b7c2"}} ghost>
+            <Button size="small" type="primary" onClick={()=> window.location.replace(item.jobLink)} style={{borderWidth: 2, borderColor: "#00b7c2"}} ghost>
               <font color="#00b7c2"> <strong>{'Apply'}</strong></font>
             </Button>
           </div>
@@ -158,7 +158,7 @@ const Tags = ({item}) => {
   } else {
     return (
       <>
-          <TagContainer style={{paddingTop: "2%", widows: "70%"}}>
+          <TagContainer style={{paddingTop: "2%"}}>
             {item.tags.map((subItem, i) =>
               <Button key={i} style={{marginTop: 4,marginLeft: 4,borderWidth: 2, borderColor: "#4a47a3", }} size="small" ghost>
                 <font color="#4a47a3">{subItem}</font>
