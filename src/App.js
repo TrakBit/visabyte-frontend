@@ -165,7 +165,7 @@ const Tags = ({item}) => {
               </Button>
             )}
             <div style={{paddingRight: "2%"}}>
-              <Button size="small" type="primary" href={item.jobLink} style={{marginTop: 4,marginLeft: 4,borderWidth: 2, borderColor: "#00b7c2"}} ghost>
+              <Button size="small" type="primary" onClick={()=> window.location.replace(item.jobLink)} style={{marginTop: 4,marginLeft: 4,borderWidth: 2, borderColor: "#00b7c2"}} ghost>
                 <font color="#00b7c2"> <strong>{'Apply'}</strong></font>
               </Button>
             </div>
