@@ -67,8 +67,7 @@ function App() {
         <Header style={{background: '#ffffff'}}>
           <LogoBody/>
         </Header>
-        <BodyTitle/>
-        <TableContainer style={{paddingTop:"3%", paddingLeft:"10%", width: '90%'}}>
+        <TableContainer style={{paddingTop:"8%", paddingLeft:"10%", width: '90%'}}>
             {jobData.map((item, i) => {
                 return (
                   <div key={i}>
@@ -180,7 +179,7 @@ const Tags = ({item}) => {
 const LogoBody = () => {
   if (window.innerWidth > 415) {
     return (
-      <Title style={{paddingTop: '1%'}}>
+      <Title style={{paddingTop: '3%'}}>
         <HeaderContainer>
           <Logo/>
         </HeaderContainer>
@@ -228,12 +227,12 @@ const LogoSvg = () => {
         <text
           x={300.208}
           y={208.578}
-          fontFamily="'PalanquinDark-Regular','Palanquin Dark',sans-serif"
+          fontFamily="'ArialRoundedMTBold','Arial Rounded MT Bold',sans-serif"
           fontSize={104.167}
-          fill="#40a9ff"
-          transform="translate(-83.277 -33.69)"
+          fill="#00b7c2"
+          transform="translate(-406.489 -142.89) scale(1.65801)"
         >
-          {"Visa Byte"}
+          {"VisaByte"}
         </text>
       </svg>
     </div>
