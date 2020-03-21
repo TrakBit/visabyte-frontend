@@ -170,7 +170,6 @@ const Tags = ({item}) => {
               </Button>
             </div>
           </TagContainer>
-          
       </>
     )
   }
