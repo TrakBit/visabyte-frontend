@@ -206,7 +206,7 @@ const Logo = (props) => {
     )
   } else {
     return (
-      <div style={{height: '50%', width: '85%'}}>
+      <div style={{height: '50%', width: '75%'}}>
         <LogoSvg/>
       </div>
     )
