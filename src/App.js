@@ -7,7 +7,6 @@ import {jobData} from './jobs'
 //import {getJob} from './Api'
 import ReactGA from 'react-ga';
 
-
 ReactGA.initialize('UA-31455093-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -24,7 +23,6 @@ const Container = styled.section`
 
 const HeaderContainer = styled.section`
   display: flex;
-  margin: 0;
   flex-direction: column;
   align-items: center;
   align-text: center;
@@ -65,6 +63,7 @@ function App() {
   return (
     <div className="App">
       <Container>
+        <Header style={{height: 10,background: '#00b7c2'}}/>
         <Header style={{background: '#ffffff'}}>
           <LogoBody/>
         </Header>
