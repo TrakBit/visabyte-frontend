@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import React, {useState} from 'react';
-import './App.css';
 import 'antd/dist/antd.css';
+import './index.css';
 import { Layout, List, Avatar, Button, Typography} from 'antd';
 import {jobData} from './jobs'
 //import {getJob} from './Api'
 import ReactGA from 'react-ga';
+
 
 ReactGA.initialize('UA-31455093-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
