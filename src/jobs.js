@@ -1,646 +1,663 @@
-export const jobData = [{
-    "companyImage": "https://i.stack.imgur.com/mlTog.png",
-    "companyName": "Jimdo GmbH",
-    "jobTitle": "Engineering Manager",
-    "jobLink": "https://stackoverflow.com/jobs/288132/engineering-manager-jimdo-gmbh",
-    "jobLocation": "Hamburg, Deutschland",
-    "tags": [
-        "node.js",
-        "kotlin",
-        "typescript",
-        "java",
-        "javascript"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/APXpt.png",
-    "companyName": "Zerocracy",
-    "jobTitle": "Smart and Brave Java Devs Exist Here?",
-    "jobLink": "https://stackoverflow.com/jobs/343894/smart-and-brave-java-devs-exist-here-zerocracy",
-    "jobLocation": "Moscow, Russia",
-    "tags": [
-        "java"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/p0YGw.png",
-    "companyName": "DraftKings",
-    "jobTitle": "Senior Software Engineer, iOS",
-    "jobLink": "https://stackoverflow.com/jobs/273271/senior-software-engineer-ios-draftkings",
+export const jobData = [ {
+    "companyImage": "https://i.stack.imgur.com/adKnl.png?s=48",
+    "companyName": "AIR Worldwide",
+    "jobTitle": "Weapon Effect Modeling Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/374107/weapon-effect-modeling-engineer-air-worldwide",
     "jobLocation": "Boston, MA",
-    "tags": [
-        "swift",
-        "ios",
-        "c#"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/oowfQ.png",
-    "companyName": "DraftKings",
-    "jobTitle": "Site Reliability Engineer, DevOps",
-    "jobLink": "https://stackoverflow.com/jobs/273268/site-reliability-engineer-devops-draftkings",
-    "jobLocation": "Boston, MA",
-    "tags": [
-        "chef",
-        "ruby",
-        "python",
-        "amazon-web-services"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/QP40k.png",
-    "companyName": "DraftKings",
-    "jobTitle": "Senior Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/273264/senior-software-engineer-draftkings",
-    "jobLocation": "Boston, MA",
-    "tags": [
-        "oop",
-        "c#",
-        "design"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/QP40k.png",
-    "companyName": "DraftKings",
-    "jobTitle": "Principal Software Engineer, Gaming",
-    "jobLink": "https://stackoverflow.com/jobs/273261/principal-software-engineer-gaming-draftkings",
-    "jobLocation": "Boston, MA",
-    "tags": [
-        "c#",
-        "c#-4.0",
-        "java"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/QP40k.png",
-    "companyName": "DraftKings",
-    "jobTitle": "Lead Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/273260/lead-software-engineer-draftkings",
-    "jobLocation": "Boston, MA",
-    "tags": [
-        "c#",
-        "reactjs",
-        "sql"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/QP40k.png",
-    "companyName": "DraftKings",
-    "jobTitle": "Senior Lead Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/273259/senior-lead-software-engineer-draftkings",
-    "jobLocation": "Boston, MA",
-    "tags": [
-        "c#",
-        "sql",
-        "c#-4.0"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/QP40k.png",
-    "companyName": "Westwing Home & Living",
-    "jobTitle": "Microsoft Dynamics NAV Consultant / Product Manager (m/f/d) - Munich, Germany",
-    "jobLink": "https://stackoverflow.com/jobs/289412/microsoft-dynamics-nav-consultant-product-westwing-home-living",
-    "jobLocation": "München, Deutschland",
-    "tags": [
-        "microsoft-dynamics-nav",
-        "sql"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/QP40k.png",
-    "companyName": "Personio",
-    "jobTitle": "Backend Engineer (m/f/d)",
-    "jobLink": "https://stackoverflow.com/jobs/371821/backend-engineer-m-f-d-personio",
-    "jobLocation": "München, Germany",
-    "tags": [
-        "java",
-        "kotlin",
-        "microservices",
-        "docker",
-        "terraform"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/G79Yj.png",
-    "companyName": "Home HT",
-    "jobTitle": "Join us scale our backend for a better future of housing for everyone",
-    "jobLink": "https://stackoverflow.com/jobs/201217/join-us-scale-our-backend-for-a-better-future-of-home-ht",
-    "jobLocation": "Berlin, Germany",
-    "tags": [
-        "amazon-web-services",
-        "api",
-        "python",
-        "r",
-        "node.js",
-        "sysadmin"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/8Isq1.png",
-    "companyName": "AGFA HealthCare Global",
-    "jobTitle": "Développeur Java Angular",
-    "jobLink": "https://stackoverflow.com/jobs/360200/d%C3%A9veloppeur-java-angular-agfa-healthcare-global",
-    "jobLocation": "Saint-André-lez-Lille, France",
-    "tags": [
-        "java",
-        "maven",
-        "junit"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/FspfI.png",
-    "companyName": "Advertima",
-    "jobTitle": "(Senior) C++ Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/371794/senior-c-plus-plus-software-engineer-advertima",
-    "jobLocation": "Zürich, Switzerland",
     "tags": [
         "c++",
-        "cuda",
-        "nvidia-jetson"
+        "r",
+        "sql",
+        "arcgis",
+        "qgis"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/QRklC.jpg",
-    "companyName": "Home HT",
-    "jobTitle": "Use your React skills to shape the future of housing",
-    "jobLink": "https://stackoverflow.com/jobs/201057/use-your-react-skills-to-shape-the-future-of-home-ht",
-    "jobLocation": "Berlin, Germany",
+    "companyImage": "https://i.stack.imgur.com/Gfl1H.png?s=48",
+    "companyName": "OOZOU",
+    "jobTitle": "iOS Developer",
+    "jobLink": "https://stackoverflow.com/jobs/364924/ios-developer-oozou",
+    "jobLocation": "Bangkok, Thailand",
     "tags": [
-        "reactjs",
-        "node.js",
-        "typescript",
-        "java"
+        "mobile",
+        "ios",
+        "swift"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/Bp3Xm.png",
-    "companyName": "Flow Traders",
-    "jobTitle": "C++ Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/192630/c-plus-plus-software-engineer-flow-traders",
+    "companyImage": "https://i.stack.imgur.com/YkNjb.png?s=48",
+    "companyName": "Sytac IT Consulting",
+    "jobTitle": "Senior Backend Developer (Java/AWS)",
+    "jobLink": "https://stackoverflow.com/jobs/197871/senior-backend-developer-java-aws-sytac-it-consulting",
     "jobLocation": "Amsterdam, Netherlands",
     "tags": [
-        "linux",
-        "netbeans",
-        "qt",
-        "c++11",
-        "git"
+        "java",
+        "spring",
+        "rest",
+        "scala",
+        "microservices"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/FspfI.png",
-    "companyName": "Revolut",
-    "jobTitle": "Android Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/347042/android-engineer-revolut",
-    "jobLocation": "London, UK",
+    "companyImage": "https://i.stack.imgur.com/KtZkF.png?s=48",
+    "companyName": "OOZOU",
+    "jobTitle": "Android Developer",
+    "jobLink": "https://stackoverflow.com/jobs/364920/android-developer-oozou",
+    "jobLocation": "Bangkok, Thailand",
     "tags": [
         "android",
         "kotlin",
-        "rx-java",
-        "dagger"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/eKHze.png",
-    "companyName": "Jimdo GmbH",
-    "jobTitle": "Backend Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/360109/backend-software-engineer-jimdo-gmbh",
-    "jobLocation": "Hamburg, Deutschland",
-    "tags": [
-        "mysql",
         "java",
-        "go",
-        "python",
-        "javascript"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/gZ15j.png",
-    "companyName": "ToolTime GmbH",
-    "jobTitle": "Software Engineer (f/m/d)",
-    "jobLink": "https://stackoverflow.com/jobs/347035/software-engineer-f-m-d-tooltime-gmbh",
-    "jobLocation": "Berlin, Germany",
-    "tags": [
-        "java",
-        "reactjs",
-        "web-services",
-        "kotlin"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/p0YGw.png",
-    "companyName": "Wunder Mobility",
-    "jobTitle": "Senior Backend PHP Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/295589/senior-backend-php-engineer-wunder-mobility",
-    "jobLocation": "Dortmund, Germany",
-    "tags": [
-        "php",
-        "yii2",
-        "rest",
-        "amazon-web-services",
-        "mysqli"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/gyqAr.png",
-    "companyName": "internetstores GmbH",
-    "jobTitle": "Junior Mobile App Developer (m/f/d)",
-    "jobLink": "https://stackoverflow.com/jobs/371754/junior-mobile-app-developer-m-f-d-internetstores-gmbh",
-    "jobLocation": "Stuttgart, Deutschland",
-    "tags": [
-        "ios",
         "mobile"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/iWFHt.png",
-    "companyName": "AUTO1",
-    "jobTitle": "Senior Team Lead Tech Operations (d/f/m)",
-    "jobLink": "https://stackoverflow.com/jobs/347022/senior-team-lead-tech-operations-d-f-m-auto1",
-    "jobLocation": "Berlin, Germany",
+    "companyImage": "https://i.stack.imgur.com/YkNjb.png?s=48",
+    "companyName": "Sytac IT Consulting",
+    "jobTitle": "Senior Frontend Developer (React/Angular/Node)",
+    "jobLink": "https://stackoverflow.com/jobs/142357/senior-frontend-developer-react-angular-node-sytac-it-consulting",
+    "jobLocation": "Amsterdam, Netherlands",
     "tags": [
-        "security"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/8IH7r.png",
-    "companyName": "AUTO1",
-    "jobTitle": "Senior Devops Engineer (d/f/m)",
-    "jobLink": "https://stackoverflow.com/jobs/123108/senior-devops-engineer-d-f-m-auto1",
-    "jobLocation": "Berlin, Germany",
-    "tags": [
-        "ansible",
-        "docker",
-        "terraform",
-        "salt-stack",
-        "amazon-web-services"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/lx2oc.png",
-    "companyName": "AUTO1",
-    "jobTitle": "DevOps Specialist in Business Intelligence (d/f/m)",
-    "jobLink": "https://stackoverflow.com/jobs/293066/devops-specialist-in-business-intelligence-d-f-m-auto1",
-    "jobLocation": "Berlin, Germany",
-    "tags": [
-        "docker",
-        "amazon-web-services",
-        "etl",
-        "ansible",
-        "jenkins"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/lx2oc.png",
-    "companyName": "PropertyGuru Pte Ltd",
-    "jobTitle": "Full Stack Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/371736/full-stack-engineer-propertyguru-pte-ltd",
-    "jobLocation": "Singapore",
-    "tags": [
-        "php",
-        "symfony2",
-        "mysql",
-        "node.js",
-        "reactjs"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/lx2oc.png",
-    "companyName": "DownUnder GeoSolutions Pty Ltd",
-    "jobTitle": "Junior Scientific Applications Developer",
-    "jobLink": "https://stackoverflow.com/jobs/352724/junior-scientific-applications-developer-downunder-geosolutions-pty-ltd",
-    "jobLocation": "West Perth, Australia",
-    "tags": [
-        "java",
-        "c++",
-        "python",
-        "c",
-        "c#"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/A6qr5.png",
-    "companyName": "Docler Holding",
-    "jobTitle": "Business Analyst (Web)",
-    "jobLink": "https://stackoverflow.com/jobs/158260/business-analyst-web-docler-holding",
-    "jobLocation": "Luxembourg",
-    "tags": [
-        "user-interface",
-        "user-experience"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "KIDOCODE",
-    "jobTitle": "Lead/Full Stack Software Developer",
-    "jobLink": "https://stackoverflow.com/jobs/343034/lead-full-stack-software-developer-kidocode",
-    "jobLocation": "Kuala Lumpur, Malaysia",
-    "tags": [
-        "python",
-        "amazon-web-services",
+        "javascript",
         "reactjs",
+        "angularjs",
         "node.js",
-        "mongodb"
+        "blockchain"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/JBc7U.png",
-    "companyName": "Qualia Labs, Inc",
-    "jobTitle": "Senior Software Engineer, Full Stack",
-    "jobLink": "https://stackoverflow.com/jobs/360349/senior-software-engineer-full-stack-qualia-labs-inc",
-    "jobLocation": "San Francisco, CA",
+    "companyImage": "https://i.stack.imgur.com/KtZkF.png?s=48",
+    "companyName": "OOZOU",
+    "jobTitle": "iOS Developer",
+    "jobLink": "https://stackoverflow.com/jobs/364919/ios-developer-oozou",
+    "jobLocation": "Bangkok, Thailand",
     "tags": [
-        "meteor",
-        "semantic-ui",
-        "mongodb",
-        "amazon-s3",
-        "javascript"
+        "mobile",
+        "ios",
+        "swift"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/SAAFc.png",
-    "companyName": "Qualia Labs, Inc",
-    "jobTitle": "Engineering Manager, Infrastructure",
-    "jobLink": "https://stackoverflow.com/jobs/362754/engineering-manager-infrastructure-qualia-labs-inc",
-    "jobLocation": "San Francisco, CA",
-    "tags": [
-        "nosql",
-        "terraform",
-        "concourse",
-        "amazon-cloudwatch",
-        "kadira"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/SAAFc.png",
-    "companyName": "Bolt",
-    "jobTitle": "Senior React Native Developer",
-    "jobLink": "https://stackoverflow.com/jobs/371570/senior-react-native-developer-bolt",
-    "jobLocation": "Tallinn, Estonia",
-    "tags": [
-        "reactjs",
-        "react-native",
-        "javascript"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/FEhEU.png",
-    "companyName": "Semantic Web Company",
-    "jobTitle": "Software Test Engineer for Machine Learning & Semantic Technologies",
-    "jobLink": "https://stackoverflow.com/jobs/181684/software-test-engineer-for-machine-learning-semantic-web-company",
-    "jobLocation": "Wien, Austria",
-    "tags": [
-        "testing",
-        "tosca",
-        "selenium",
-        "testng",
-        "git"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/LkEde.png",
-    "companyName": "Luna",
-    "jobTitle": "Senior Scala/Kubernetes Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/301828/senior-scala-kubernetes-engineer-luna",
-    "jobLocation": "Kraków, Poland",
-    "tags": [
-        "kubernetes",
-        "amazon-web-services",
-        "terraform",
-        "scala"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/fT27J.png",
-    "companyName": "metoda GmbH",
-    "jobTitle": "Senior ruby developer",
-    "jobLink": "https://stackoverflow.com/jobs/168823/senior-ruby-developer-metoda-gmbh",
+    "companyImage": "https://i.stack.imgur.com/YkNjb.png?s=48",
+    "companyName": "e-bot7 GmbH",
+    "jobTitle": "Senior DevOps Engineer (m/f/d)",
+    "jobLink": "https://stackoverflow.com/jobs/374232/senior-devops-engineer-m-f-d-e-bot7-gmbh",
     "jobLocation": "München, Germany",
     "tags": [
-        "ruby",
-        "docker",
-        "ruby-on-rails",
-        "redis",
-        "amazon-web-services"
+        "amazon-web-services",
+        "devops",
+        "cloud",
+        "linux",
+        "sysadmin"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/SRUi2.jpg",
-    "companyName": "SoundCloud",
-    "jobTitle": "Senior Software Engineer - Security",
-    "jobLink": "https://stackoverflow.com/jobs/359541/senior-software-engineer-security-soundcloud",
+    "companyImage": "https://i.stack.imgur.com/YOYnl.png?s=48",
+    "companyName": "Wellcome Sanger Institute",
+    "jobTitle": "Data Manager",
+    "jobLink": "https://stackoverflow.com/jobs/384695/data-manager-wellcome-sanger-institute",
+    "jobLocation": "Hinxton, UK",
+    "tags": [
+        "bioinformatics"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/OIO5x.png?s=48",
+    "companyName": "ING",
+    "jobTitle": "IPA Software Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/366533/ipa-software-engineer-ing",
+    "jobLocation": "Amsterdam, Netherlands",
+    "tags": [
+        "java",
+        "git",
+        "spring-boot",
+        "maven",
+        "confluence"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/OzIA1.png?s=48",
+    "companyName": "ING",
+    "jobTitle": "Drools Developer in Banking",
+    "jobLink": "https://stackoverflow.com/jobs/368825/drools-developer-in-banking-ing",
+    "jobLocation": "Amsterdam, Netherlands",
+    "tags": [
+        "sql",
+        "web-services",
+        "drools"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/OzIA1.png?s=48",
+    "companyName": "ING",
+    "jobTitle": "Alteryx Developer in Banking",
+    "jobLink": "https://stackoverflow.com/jobs/368820/alteryx-developer-in-banking-ing",
+    "jobLocation": "Amsterdam, Netherlands",
+    "tags": [
+        "web-services",
+        "sql",
+        "alteryx"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/OzIA1.png?s=48",
+    "companyName": "Medmain Inc.",
+    "jobTitle": "AI Research Engineer/Working in Japan",
+    "jobLink": "https://stackoverflow.com/jobs/384589/ai-research-engineer-working-in-japan-medmain-inc",
+    "jobLocation": "Tokyo, Japan",
+    "tags": [
+        "computer-vision",
+        "artificial-intelligence",
+        "deep-learning",
+        "python",
+        "keras"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/tBr5N.png?s=48",
+    "companyName": "Container Solutions",
+    "jobTitle": "Cloud Native Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/174636/cloud-native-engineer-container-solutions",
     "jobLocation": "Berlin, Germany",
     "tags": [
-        "security",
-        "scala",
-        "hadoop",
-        "ruby",
-        "go"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/F7huu.png",
-    "companyName": "Optiver Asia Pacific Pty Ltd",
-    "jobTitle": "C++ Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/266609/c-plus-plus-engineer-optiver-asia-pacific-pty-ltd",
-    "jobLocation": "Sydney, Australia",
-    "tags": [
-        "c++",
-        "linux",
-        "algorithm",
-        "performance",
-        "low-latency"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/te98e.png",
-    "companyName": "Canva",
-    "jobTitle": "Senior Web Engineer - Backend Node.js, Typescript, PHP",
-    "jobLink": "https://stackoverflow.com/jobs/305234/senior-web-engineer-backend-nodejs-typescript-canva",
-    "jobLocation": "Sydney, Australia",
-    "tags": [
-        "node.js",
-        "php",
         "docker",
-        "typescript",
+        "kubernetes",
+        "python",
+        "cloud",
         "terraform"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/s4gR5.png",
-    "companyName": "Canva",
-    "jobTitle": "Software Engineer - Java, Product & Features",
-    "jobLink": "https://stackoverflow.com/jobs/156512/software-engineer-java-product-features-canva",
-    "jobLocation": "Sydney, Australia",
+    "companyImage": "https://i.stack.imgur.com/xmQLI.png?s=48",
+    "companyName": "Enlitic",
+    "jobTitle": "Senior Deployment Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/359445/senior-deployment-engineer-enlitic",
+    "jobLocation": "San Francisco, CA",
+    "tags": [
+        "c++",
+        "python",
+        "c",
+        "deployment",
+        "filesystems",
+        "sysadmin"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/QNFCA.png?s=48",
+    "companyName": "Enlitic",
+    "jobTitle": "Senior Data Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/359444/senior-data-engineer-enlitic",
+    "jobLocation": "San Francisco, CA",
+    "tags": [
+        "etl",
+        "postgresql",
+        "schema",
+        "indexing",
+        "data"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/QNFCA.png?s=48",
+    "companyName": "Esri",
+    "jobTitle": "Software Developer - UX/UI ArcGIS Pro Raster and Imagery",
+    "jobLink": "https://stackoverflow.com/jobs/384452/software-developer-ux-ui-arcgis-pro-raster-and-esri",
+    "jobLocation": "Redlands, CA",
+    "tags": [
+        "c#",
+        "wpf",
+        "xamarin"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/rBxLQ.png?s=48",
+    "companyName": "Revolut",
+    "jobTitle": "Head of Engineering",
+    "jobLink": "https://stackoverflow.com/jobs/384448/head-of-engineering-revolut",
+    "jobLocation": "London, UK",
     "tags": [
         "java",
-        "amazon-web-services",
-        "multithreading",
-        "intellij-idea",
-        "concurrency"
+        "postgresql",
+        "tdd",
+        "domain-driven-design"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/s4gR5.png",
-    "companyName": "Canva",
-    "jobTitle": "Senior Front-End JavaScript Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/150823/senior-front-end-javascript-engineer-canva",
-    "jobLocation": "Sydney, Australia",
+    "companyImage": "https://i.stack.imgur.com/gZ15j.png?s=48",
+    "companyName": "Earnin Inc.",
+    "jobTitle": "Senior Software Engineer, Back End",
+    "jobLink": "https://stackoverflow.com/jobs/374113/senior-software-engineer-back-end-earnin-inc",
+    "jobLocation": "Palo Alto, CA",
+    "tags": [
+        "soa",
+        "oop",
+        "microservices",
+        "payment-processing",
+        "sql"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/b7Bla.png?s=48",
+    "companyName": "GitStart",
+    "jobTitle": "Software Research Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/364755/software-research-engineer-gitstart",
+    "jobLocation": "Hong Kong",
+    "tags": [
+        "reactjs",
+        "node.js",
+        "javascript"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/NC3AA.png?s=48",
+    "companyName": "Root Insurance Company",
+    "jobTitle": "Infrastructure Security Engineer at Root Insurance (a $3.65B valuation startup)",
+    "jobLink": "https://stackoverflow.com/jobs/384440/infrastructure-security-engineer-at-root-root-insurance-company",
+    "jobLocation": "Chicago, IL",
+    "tags": [
+        "amazon-web-services",
+        "docker",
+        "infrastructure",
+        "security"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/A81xU.png?s=48",
+    "companyName": "Root Insurance Company",
+    "jobTitle": "Infrastructure Security Engineer at Root Insurance (a $3.65B valuation startup)",
+    "jobLink": "https://stackoverflow.com/jobs/384439/infrastructure-security-engineer-at-root-root-insurance-company",
+    "jobLocation": "Columbus, OH",
+    "tags": [
+        "amazon-web-services",
+        "docker",
+        "infrastructure",
+        "security"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/A81xU.png?s=48",
+    "companyName": "McKinsey & Company",
+    "jobTitle": "Security/Cloud Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/351804/security-cloud-engineer-mckinsey-company",
+    "jobLocation": "Chicago, IL",
+    "tags": [
+        "cloud",
+        "security",
+        "amazon-web-services"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/gdbKS.png?s=48",
+    "companyName": "Hilti - Digital Platforms",
+    "jobTitle": "Cohort Lead Backend Developer",
+    "jobLink": "https://stackoverflow.com/jobs/290040/cohort-lead-backend-developer-hilti-digital-platforms",
+    "jobLocation": "Boulogne-Billancourt, France",
+    "tags": [
+        "api",
+        "java",
+        "spring"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/ySQAB.png?s=48",
+    "companyName": "Vonage",
+    "jobTitle": "Site Reliability  Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/320791/site-reliability-engineer-vonage",
+    "jobLocation": "Atlanta, GA",
+    "tags": [
+        "elixir",
+        "ruby-on-rails",
+        "kubernetes",
+        "open-source",
+        "erlang"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/adKnl.png?s=48",
+    "companyName": "travel audience GmbH",
+    "jobTitle": "Data Engineering Manager at the leading data-driven travel advertising platform!",
+    "jobLink": "https://stackoverflow.com/jobs/313472/data-engineering-manager-at-the-leading-data-travel-audience-gmbh",
+    "jobLocation": "Berlin, Germany",
+    "tags": [
+        "scala",
+        "api-design",
+        "architecture",
+        "spark-streaming",
+        "python"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/8Isq1.png?s=48",
+    "companyName": "RTL Nederland",
+    "jobTitle": "DevOps Cloud Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/168441/devops-cloud-engineer-rtl-nederland",
+    "jobLocation": "Hilversum, Netherlands",
+    "tags": [
+        "docker",
+        "cloud",
+        "jenkins",
+        "azure",
+        "kubernetes",
+        "sysadmin"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/ERANA.png?s=48",
+    "companyName": "Catawiki",
+    "jobTitle": "Lead Developer - Logistics",
+    "jobLink": "https://stackoverflow.com/jobs/384415/lead-developer-logistics-catawiki",
+    "jobLocation": "Amsterdam, Netherlands",
+    "tags": [
+        "ruby-on-rails",
+        "ruby",
+        "testing",
+        "performance-testing"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/kcWeW.png?s=48",
+    "companyName": "IRECKONU B.V.",
+    "jobTitle": "Software Developer",
+    "jobLink": "https://stackoverflow.com/jobs/219101/software-developer-ireckonu-bv",
+    "jobLocation": "Amsterdam, Netherlands",
+    "tags": [
+        "solid-principles",
+        "c#",
+        "entity-framework",
+        "asp.net",
+        "azure-web-sites"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/jkKtt.png?s=48",
+    "companyName": "IRECKONU B.V.",
+    "jobTitle": "Frontend Developer",
+    "jobLink": "https://stackoverflow.com/jobs/219102/frontend-developer-ireckonu-bv",
+    "jobLocation": "Amsterdam, Netherlands",
     "tags": [
         "javascript",
-        "typescript",
-        "mobx",
-        "reactjs"
+        "ios",
+        "android",
+        "angular",
+        "ionic2"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/s4gR5.png",
-    "companyName": "Grand Parade",
-    "jobTitle": "Full Stack Developer (Node.js/.NET)",
-    "jobLink": "https://stackoverflow.com/jobs/371532/full-stack-developer-nodejs-net-grand-parade",
+    "companyImage": "https://i.stack.imgur.com/jkKtt.png?s=48",
+    "companyName": "Luna",
+    "jobTitle": "Senior Interpreter Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/289017/senior-interpreter-engineer-luna",
     "jobLocation": "Kraków, Poland",
     "tags": [
-        "react",
-        "node.js",
-        ".net"
+        "java",
+        "scala",
+        "truffle",
+        "jvm",
+        "graalvm"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/pG1OB.jpg",
-    "companyName": "Docler Holding",
-    "jobTitle": "Software Architect (focus PHP)",
-    "jobLink": "https://stackoverflow.com/jobs/206535/software-architect-focus-php-docler-holding",
-    "jobLocation": "Luxembourg",
+    "companyImage": "https://i.stack.imgur.com/fT27J.png?s=48",
+    "companyName": "CCP Games",
+    "jobTitle": "UI Engineer - EVE Online",
+    "jobLink": "https://stackoverflow.com/jobs/384412/ui-engineer-eve-online-ccp-games",
+    "jobLocation": "Reykjavík, Iceland",
     "tags": [
-        "php",
-        "mysql",
-        "memcached",
-        "nosql",
-        "redis"
+        "user-interface",
+        "c++",
+        "python"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "Docler Holding",
-    "jobTitle": "Senior PHP Developer",
-    "jobLink": "https://stackoverflow.com/jobs/155479/senior-php-developer-docler-holding",
-    "jobLocation": "Luxembourg",
+    "companyImage": "https://i.stack.imgur.com/iqmU5.png?s=48",
+    "companyName": "RTL Nederland",
+    "jobTitle": "Data Infrastructure Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/353118/data-infrastructure-engineer-rtl-nederland",
+    "jobLocation": "Hilversum, Netherlands",
     "tags": [
-        "oop",
-        "php",
-        "agile",
-        "unit-testing"
+        "python",
+        "java",
+        "docker"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "Docler Holding",
-    "jobTitle": "Senior Front-End Developer",
-    "jobLink": "https://stackoverflow.com/jobs/246029/senior-front-end-developer-docler-holding",
-    "jobLocation": "Luxembourg",
+    "companyImage": "https://i.stack.imgur.com/ERANA.png?s=48",
+    "companyName": "Massive Entertainment - A Ubisoft Studio",
+    "jobTitle": "Full stack developer",
+    "jobLink": "https://stackoverflow.com/jobs/351634/full-stack-developer-massive-entertainment-a",
+    "jobLocation": "Malmö, Sweden",
     "tags": [
         "javascript",
+        "c#",
+        "html",
+        "css"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/RHe2g.png?s=48",
+    "companyName": "Delivery Hero SE",
+    "jobTitle": "Senior Go Engineer - New Verticals (f/m/d)",
+    "jobLink": "https://stackoverflow.com/jobs/384344/senior-go-engineer-new-verticals-f-m-d-delivery-hero-se",
+    "jobLocation": "Berlin, Germany",
+    "tags": [
+        "go",
+        "amazon-web-services",
+        "google-cloud-platform"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/QzDEr.png?s=48",
+    "companyName": "Delivery Hero SE",
+    "jobTitle": "Senior Python Engineer - New Verticals (f/m/d)",
+    "jobLink": "https://stackoverflow.com/jobs/384343/senior-python-engineer-new-verticals-f-m-d-delivery-hero-se",
+    "jobLocation": "Berlin, Germany",
+    "tags": [
+        "python",
+        "django",
+        "flask",
+        "amazon-web-services",
+        "google-cloud-platform"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/QzDEr.png?s=48",
+    "companyName": "Paradox Cat GmbH",
+    "jobTitle": "Test Manager (m/w/d) - Munich",
+    "jobLink": "https://stackoverflow.com/jobs/384341/test-manager-m-w-d-munich-paradox-cat-gmbh",
+    "jobLocation": "München, Deutschland",
+    "tags": [
+        "android",
+        "qa",
+        "scrum",
+        "jira",
+        "agile"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/T4VYc.png?s=48",
+    "companyName": "Volkswagen Digital Solutions",
+    "jobTitle": "Software Developer @ SDC:LX",
+    "jobLink": "https://stackoverflow.com/jobs/340983/software-developer-sdc-lx-volkswagen-digital-solutions",
+    "jobLocation": "Lisboa, Portugal",
+    "tags": [
+        "tdd",
+        "agile",
+        "kotlin",
+        "go",
+        "scala"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/tfHIi.png?s=48",
+    "companyName": "Topic Embedded Systems B.V.",
+    "jobTitle": "Senior C++ Engineer who helps to make the world better, healthier and smarter!",
+    "jobLink": "https://stackoverflow.com/jobs/163352/senior-c-plus-plus-engineer-who-helps-to-make-the-world-topic-embedded-systems-bv",
+    "jobLocation": "Eindhoven, Netherlands",
+    "tags": [
+        "c++",
+        "linux",
+        "agile",
+        "embedded",
+        "design"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/CVdmi.jpg?s=48",
+    "companyName": "ToolTime GmbH",
+    "jobTitle": "Full Stack Engineer (m/f/d)",
+    "jobLink": "https://stackoverflow.com/jobs/340981/full-stack-engineer-m-f-d-tooltime-gmbh",
+    "jobLocation": "Berlin, Germany",
+    "tags": [
         "reactjs",
-        "oop",
-        "redux",
+        "java",
+        "amazon-web-services",
+        "graphql",
         "typescript"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "Docler Holding",
-    "jobTitle": "IT Security Specialist",
-    "jobLink": "https://stackoverflow.com/jobs/246038/it-security-specialist-docler-holding",
-    "jobLocation": "Luxembourg",
+    "companyImage": "https://i.stack.imgur.com/gyqAr.png?s=48",
+    "companyName": "Volkswagen Digital Solutions",
+    "jobTitle": "Software Developer @ MAN Digital Hub",
+    "jobLink": "https://stackoverflow.com/jobs/340980/software-developer-man-digital-hub-volkswagen-digital-solutions",
+    "jobLocation": "Lisboa, Portugal",
     "tags": [
-        "security",
-        "testing",
-        "php"
+        "java",
+        "spring-boot",
+        "hibernate",
+        "angular",
+        "json"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "Docler Holding",
-    "jobTitle": "Head of Engineering (Luxembourg)",
-    "jobLink": "https://stackoverflow.com/jobs/279761/head-of-engineering-luxembourg-docler-holding",
-    "jobLocation": "Luxembourg",
+    "companyImage": "https://i.stack.imgur.com/tfHIi.png?s=48",
+    "companyName": "Razer Inc.",
+    "jobTitle": "Software Development Engineer In Test (SDET)",
+    "jobLink": "https://stackoverflow.com/jobs/320529/software-development-engineer-in-test-sdet-razer-inc",
+    "jobLocation": "Singapore",
     "tags": [
-        "php",
-        "microservices",
-        "reactjs"
+        "c#",
+        "c",
+        "jenkins",
+        "xcode"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "Docler Holding",
-    "jobTitle": "Front-End (Haxe) Developer",
-    "jobLink": "https://stackoverflow.com/jobs/164478/front-end-haxe-developer-docler-holding",
-    "jobLocation": "Luxembourg",
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png?s=48",
+    "companyName": "Razer Inc.",
+    "jobTitle": "Data Scientist",
+    "jobLink": "https://stackoverflow.com/jobs/320522/data-scientist-razer-inc",
+    "jobLocation": "Singapore",
     "tags": [
-        "oop",
-        "node.js",
-        "javascript",
-        "haxe",
-        "reactjs"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/84MNv.png",
-    "companyName": "Creative Group",
-    "jobTitle": "Senior data Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/380388/senior-data-engineer-creative-group",
-    "jobLocation": "Amsterdam, Netherlands",
-    "tags": [
-        "etl",
-        "python",
-        "airflow",
-        "amazon-redshift",
-        "data-warehouse"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/cbeKb.png",
-    "companyName": "Creative Group",
-    "jobTitle": "QA Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/380387/qa-engineer-creative-group",
-    "jobLocation": "Amsterdam, Netherlands",
-    "tags": [
-        "qa",
-        "automation",
-        "testing",
-        "web-api-testing",
-        "unit-testing"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/cbeKb.png",
-    "companyName": "Unifonic",
-    "jobTitle": "Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/359443/software-engineer-unifonic",
-    "jobLocation": "Dubai, United Arab Emirates",
-    "tags": [
-        "spring",
-        "symfony"
-    ]
-},
-{
-    "companyImage": "https://i.stack.imgur.com/1fHVD.png",
-    "companyName": "Yaraku, Inc.",
-    "jobTitle": "NLP Developer",
-    "jobLink": "https://stackoverflow.com/jobs/286235/nlp-developer-yaraku-inc",
-    "jobLocation": "Shibuya City, Japan",
-    "tags": [
-        "python",
+        "machine-learning",
+        "algorithm",
+        "bayesian",
         "nlp"
     ]
 },
 {
-    "companyImage": "https://i.stack.imgur.com/FtFBK.png",
-    "companyName": "IMC Trading",
-    "jobTitle": "C++ Software Engineer",
-    "jobLink": "https://stackoverflow.com/jobs/334618/c-plus-plus-software-engineer-imc-trading",
-    "jobLocation": "Chicago, IL",
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png?s=48",
+    "companyName": "Sinch",
+    "jobTitle": "Mobile Developer - Create world class SDK's with us!",
+    "jobLink": "https://stackoverflow.com/jobs/328973/mobile-developer-create-world-class-sdks-with-sinch",
+    "jobLocation": "Stockholm, Sweden",
     "tags": [
         "c++",
-        "qt"
+        "objective-c",
+        "swift",
+        "ios",
+        "android"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/BfFri.png?s=48",
+    "companyName": "Razer Inc.",
+    "jobTitle": "DevOps Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/320518/devops-engineer-razer-inc",
+    "jobLocation": "Singapore",
+    "tags": [
+        "amazon-web-services",
+        "rest",
+        "oauth-2.0",
+        "linux"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png?s=48",
+    "companyName": "Razer Inc.",
+    "jobTitle": "Information Security Engineer",
+    "jobLink": "https://stackoverflow.com/jobs/320515/information-security-engineer-razer-inc",
+    "jobLocation": "Singapore",
+    "tags": [
+        "windows",
+        "linux",
+        "amazon-ec2"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/cYnUK.png?s=48",
+    "companyName": "LeadIQ",
+    "jobTitle": "Software Project Manager",
+    "jobLink": "https://stackoverflow.com/jobs/384325/software-project-manager-leadiq",
+    "jobLocation": "Singapore",
+    "tags": [
+        "project-management",
+        "qa",
+        "agile-project-management"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/q26H9.png?s=48",
+    "companyName": "Ascend Group",
+    "jobTitle": "Software Architect",
+    "jobLink": "https://stackoverflow.com/jobs/340132/software-architect-ascend-group",
+    "jobLocation": "Khwaeng Bang Chak, Thailand",
+    "tags": [
+        "spring",
+        "java",
+        "spring-mvc",
+        "postgresql",
+        "amazon-web-services"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/dZUfZ.png?s=48",
+    "companyName": "Ascend Group",
+    "jobTitle": "Solution Architect",
+    "jobLink": "https://stackoverflow.com/jobs/340130/solution-architect-ascend-group",
+    "jobLocation": "Khwaeng Bang Chak, Thailand",
+    "tags": [
+        "spring",
+        "java",
+        "postgresql",
+        "rabbitmq",
+        "spring-kafka"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/dZUfZ.png?s=48",
+    "companyName": "Earnin Inc.",
+    "jobTitle": "Senior Software Engineer, Full Stack",
+    "jobLink": "https://stackoverflow.com/jobs/373931/senior-software-engineer-full-stack-earnin-inc",
+    "jobLocation": "Palo Alto, CA",
+    "tags": [
+        "c#",
+        ".net",
+        "web",
+        "amazon-web-services",
+        "mobile"
+    ]
+},
+{
+    "companyImage": "https://i.stack.imgur.com/b7Bla.png?s=48",
+    "companyName": "Personio",
+    "jobTitle": "Senior Backend Engineer (m/w/d)",
+    "jobLink": "https://stackoverflow.com/jobs/273941/senior-backend-engineer-m-w-d-personio",
+    "jobLocation": "München, Germany",
+    "tags": [
+        "docker",
+        "java",
+        "kotlin",
+        "golang",
+        "kubernetes"
     ]
 }]
